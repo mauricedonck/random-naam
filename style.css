@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#AFEBD3;
+}
+
+
+#title {
+	color: #FFFC81
+}
+
+#moo-deng {
+	color: #8F8F8F;	
+}
+#pic-moo {
+	width: 300px;
+}
+#pesto {
+	color:#724B4C;	
+}
+#pic-pest{
+	width: 300px;
+}
+#hua-hua {
+	color:#FFFFFF;	
+}
+#pic-hua {
+	width: 300px;
