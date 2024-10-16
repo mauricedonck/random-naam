@@ -1,8 +1,13 @@
 // JavaScript Document
 
 function changeColortitle(){
-	document.getElementById("title").style.color="green";
-	document.getElementById("title").textContent = 
+	debugger;
+	if (document.getElementById("title").style.color=="green"){
+		document.getElementById("title").style.color="yellow";
+		} else {
+		document.getElementById("title").style.color="green";
+		}
+	
 }
 function changeColor2(){
 	document.getElementById("moo-deng").style.color="pink";
@@ -14,9 +19,12 @@ function changeColor3(){
 }
 function changeColor4(){
 	document.getElementById("hua-hua").style.color="black";
-	document.getElementById("title").textContent =
+	document.getElementById("hua-hua").textContent = "panda";
 }
 function changeColor5(){
 	document.getElementById("harambe").style.color="gray";
-	document.getElementById("title").textContent =
+	for(var i = 0;i<5;i++){
+		document.getElementById("harambe").textContent += "	RIP harambe";
+	}
 }
+
